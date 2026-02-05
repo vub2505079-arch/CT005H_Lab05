@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng công nghệ số trong học tập</title>
+
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #eef2ff, #f8fafc);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 35px 40px;
+            border-radius: 14px;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #1e40af;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        p {
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        /* Thông tin sinh viên */
+        .info-box {
+            background: #eef2ff;
+            padding: 20px 25px;
+            border-left: 6px solid #1e40af;
+            border-radius: 8px;
+            margin-bottom: 35px;
+        }
+
+        .info-box p {
+            margin: 6px 0;
+            font-weight: 500;
+        }
+
+        /* Mỗi sản phẩm */
+        .product {
+            margin-top: 25px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #f9fafb;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .product a {
+            color: #1d4ed8;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .product a:hover {
+            text-decoration: underline;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 15px;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        }
+
+        /* Video */
+        .video {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .video img {
+            width: 380px;
+            max-width: 100%;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .video img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 14px;
+            color: #555;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Ứng dụng công nghệ số trong học tập</h1>
+
+    <div class="info-box">
+        <p><strong>👤 Sinh viên:</strong>Nguyễn Đình Đại Vũ</p>
+        <p><strong>🆔 MSSV:</strong> B2505079</p>
+        <p><strong>🏫 Lớp:</strong> CT005HM05</p>
+        <p><strong>📘 Môn học:</strong> NỀN TẢNG CÔNG NGHỆ SỐ</p>
+    </div>
+
+    <p>
+        Công nghệ số đã và đang đóng vai trò then chốt trong giáo dục hiện đại.
+        Việc ứng dụng các nền tảng học trực tuyến, tài nguyên số và trí tuệ nhân tạo
+        giúp sinh viên học tập linh hoạt hơn, tăng khả năng tự học và nâng cao hiệu quả tiếp thu kiến thức.
+    </p>
+
+    <!-- PDF -->
+    <div class="product">
+        <h2>📄 Sản phẩm 1: Tài liệu PDF</h2>
+        <p>
+            Tài liệu trình bày tổng quan về ứng dụng công nghệ số trong học tập,
+            bao gồm khái niệm, lợi ích và ví dụ minh họa thực tế.
+        </p>
+        <a href="Lab05_Ex1.2.pdf" target="_blank">
+            👉 Nhấn vào đây để mở file PDF
+        </a>
+    </div>
+
+    <!-- Infographic -->
+    <div class="product">
+        <h2>🖼️ Sản phẩm 2: Infographic minh họa</h2>
+        <p>
+            Infographic thể hiện trực quan các lợi ích chính của công nghệ số
+            trong quá trình học tập và nghiên cứu.
+        </p>
+        <img src="infographic.png" alt="Infographic về công nghệ số trong học tập">
+    </div>
+
+    <!-- Video -->
+    <div class="product">
+        <h2>🎥 Sản phẩm 3: Video minh họa</h2>
+
+        <div class="video">
+            <a href="https://www.youtube.com/shorts/aDsiFh39msI" target="_blank">
+                <img 
+                    src="https://img.youtube.com/vi/aDsiFh39msI/hqdefault.jpg"
+                    alt="Video minh họa công nghệ số trong học tập"
+                >
+            </a>
+            <p>▶ Nhấn vào hình để xem video trên YouTube</p>
+        </div>
+    </div>
+
+    <footer>
+        © 2026 – Bài tập Lab05<br>
+        Nội dung phục vụ mục đích học tập<br>
+        Hỗ trợ bởi AI (ChatGPT, GitHub Copilot)
+    </footer>
+
+</div>
+
+</body>
+</html>
