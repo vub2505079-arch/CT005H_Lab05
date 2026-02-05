@@ -22,4 +22,4 @@ Trang web cá nhân được xây dựng bằng **HTML5 & CSS3**, trình bày k�
 ---
 
 ## 🌐 Link Website (GitHub Pages)
-👉 https://vub2505079-arch.github.io/CT005H_Lab05/
+👉 https://github.com/vub2505079-arch/CT005H_Lab05/
